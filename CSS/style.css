@@ -1,3 +1,240 @@
-p{
-    color:red;
+/* STARTER CODE -- DO NOT DELETE */
+/*	============================================== */
+
+/*	============================================== */
+
+* {
+	box-sizing: border-box;
 }
+
+.container {
+	width: 1000px;
+	max-width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 1%;
+	overflow: hidden;
+    background-image: linear-gradient(to right,rgb(80, 19, 177),rgb(163, 26, 133));
+    font-size: 24px;
+}
+
+li{
+	float: right;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: rgb(132, 103, 212);
+}
+
+main{
+	background: fixed;	
+	margin: 5px;;
+    background-color: rgb(206, 86, 200);
+}
+
+h1{
+	color: rgb(255, 255, 255);
+	text-align: left;
+    background-color: rgb(201, 100, 196);
+    padding: 2%; 
+    background-image: linear-gradient(to right,rgb(80, 19, 177),rgb(163, 26, 133));
+    font-size: 34px;
+}
+
+
+img{
+	max-width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+h2{
+	color: black;
+	text-align: center;
+}
+
+/*	============================================== */
+
+.page-section- {
+    background-image: linear-gradient(to right,rgb(80, 19, 177),rgb(163, 26, 133));
+}
+
+.section-content {
+	padding: 3rem 0;
+	text-align: center;
+}
+
+.section-decoration {
+	overflow: hidden;
+}
+
+.section-decoration img {
+	display: block;
+	position: relative;
+	margin-bottom: -1px;
+}
+
+.section-decoration--flipped img {
+	transform: rotate(180deg);
+	margin-top: -1px;
+}
+
+.section-decoration--flipped img {
+	transform: rotate(180deg);
+	margin-top: -1px;
+}
+
+/*	---------------------------------------------- */
+
+.page-section--concerts {
+	background: #B11313;
+	background-image: linear-gradient(to right,rgb(80, 19, 177),rgb(163, 26, 133));
+    padding: 50%;
+}
+
+.avatar {
+	display: block;
+	width: 500px;
+	max-width: 100%;
+	border-radius: 50%;
+	margin: 0 auto;
+	transform: scale(1);
+	transition: all 300ms ease-in-out;
+}
+
+.avatar:hover{
+	border-radius: 50%;
+	box-shadow: 0px 15px 20px red;
+}
+
+
+.page-section--concerts h2 {
+	color: #fff;
+}
+
+.page-section--history p {
+	color: #fff;
+}
+
+/*	---------------------------------------------- */
+
+.page-section--quote {
+	background-image: url('../images/comic-books.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.page-section--quote .section-content {
+	background-color: rgba(68, 123, 190, .8);
+}
+
+.page-section--quote h2 {
+	color: #fff;
+	text-shadow: 3px 3px #000;
+}
+
+figure {
+	background: #fff;
+	padding: 2rem;
+	border-top-left-radius: 4rem;
+	border-bottom-right-radius: 4rem;
+}
+
+blockquote {
+	text-align: center;
+}
+
+blockquote p {
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 2rem;
+}
+
+figcaption {
+	font-family: 'Balsamiq Sans', cursive;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	color: #B11313;
+}
+
+
+/*	============================================== */
+
+.swatch-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 -.5rem;
+	width: 100%;
+}
+
+.swatch-item {
+	width: calc(20% - 1rem);
+	padding: .5rem;
+	margin: .5rem;
+	background: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.swatch-sample {
+	height: 100px;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+.swatch-hex {
+	padding: .5rem 0 0;
+	text-align: center;
+}
+
+
+.swatch-sample--one {
+	background-color: #DF1F2D;
+}
+.swatch-sample--two {
+	background-color: #B11313;
+}
+.swatch-sample--three {
+	background-color: #2B3784;
+}
+.swatch-sample--four {
+	background-color: #447BBE;
+}
+
+
